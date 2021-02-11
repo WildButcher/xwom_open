@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = '角色列表';
+$this->title = '部门列表';
 $pageSize = \Yii::$app->params['pageSize'];
 $limitsJson = \Yii::$app->params['limitsJson'];
 use common\utils\ToolUtil;
