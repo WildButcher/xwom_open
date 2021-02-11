@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 
-$this->title = $title;
+$this->title = "单位列表";
 $pageSize = \Yii::$app->params['pageSize'];
 $limitsJson = \Yii::$app->params['limitsJson'];
 ?>
