@@ -14,7 +14,7 @@ $limitsJson = \Yii::$app->params['limitsJson'];
         <form method="post" class="layui-form" action="<?=\yii\helpers\Url::toRoute(['dep/dep-edit'])?>">
             <div class="layui-form-item">
                 <input name="dep[depid]" type="hidden" value="<?=ToolUtil::getSelectType($depInfo,'depid','')?>" />
-                <input name="unit_id" type="hidden" value="<?=$unit_id?>" />
+                <input name="unit_id" type="hidden" value="<?=ToolUtil::getSelectType($depInfo,'unit_id','')?>" />
                 <input name="_csrfBackend" type="hidden" value="<?=\Yii::$app->request->csrfToken?>" />
                 <label for="name" class="layui-form-label">
                     <span class="x-red">*</span>部门名称
